@@ -1,0 +1,290 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+#viewport {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:#fff;
+}
+#header {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 10px;
+    background:transparent;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    padding-inline-end:0px;
+    margin-top: 7px;
+}
+#l-header {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 5px;
+    padding-inline-start: 15px;
+    background:transparent;
+}
+#r-header {
+    position: absolute;
+    text-align: right;
+    min-width: 250px;
+    height: 30px;
+    top: 5px;
+    right: 20px;
+    background:transparent;
+}
+#r-header-r {
+    width: 48%;
+    float: right;   
+    height: 100%;
+    background:transparent;
+    text-align: right;
+}
+#grid {
+    height: 100%;
+    width: 30px;
+    margin-right: 5px;
+    opacity: .55;
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+    cursor: pointer;
+}
+#bell{
+    height: 20px;
+    width: 20px;
+    margin: 5px 10px 5px 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 12px;
+    background-color: rgba(0,0,0,.55);
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-size: 528px 68px;
+    background-position: -194px -21px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#accnt-icon {
+    height: 32px;
+    width: 32px;
+    margin: -1px 5px -1px -1px;
+    background-image: url(https://lh3.googleusercontent.com/-3g0xKRj1vMU/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-hMDKtBncAsYbCDSaUhzqq5BKobiQ/s64-c-mo/photo.jpg);
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#r-header-l {
+    width: 52%;
+    float: left;
+    height: 100%;
+    background:transparent;
+    text-align: right;
+}
+.diflist>li {
+    list-style: none;
+    font-size: 13px;
+    display: inline;
+    color: white;
+    opacity: .75;
+    padding-left: 10px;
+    padding-right:2px;
+}
+#search-bar {  
+    position: absolute;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    top: 346px;
+    background:transparent;
+}
+#logo {  
+    position: absolute;
+    top:-300px;
+    width: 100%;
+    height: 300px;
+    background:transparent;
+    display: flex;
+    justify-content: center;
+}
+#glogo {
+    position: absolute;
+    bottom: 25px;
+    height:92px;
+    width: 272px;
+}
+#form-bar {  
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 2px;
+    height: 50px;
+    background:transparent;
+}
+#form-box {
+    position: absolute;
+    display: flex;
+    background:#fff;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height:45px;
+    width:484px;
+}
+.form-box {
+    position: absolute;
+    display: flex;
+    background:#fff;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height:45px;
+    width:484px;
+}
+.form-box:hover {
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.16), 0 0 2px 2px rgba(0,0,0,0.08);
+}
+input[type="submit"]:hover {
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+#input-form {
+    position: absolute;
+    background:transparent;
+    outline: none;
+    height: 34px;
+    width: 90%;
+    top: 5px;
+    left: 15px;
+    border: none;
+    color: rgba (0,0,0,.87);
+    word-wrap: break-word;
+    display: flex;
+}
+#mphone {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 10px;
+    right: 12px; 
+}
+#micimage {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+#button-box {  
+    position: absolute;
+    width: 484px;
+    height: 50px;
+    top:55px;
+    background:transparent;
+}
+#search-button {
+    position: absolute;
+    width: 100px;
+    left:97px;
+    top:5px;
+
+}
+#lucky-button {
+    position: absolute;
+    right:97px;
+    top:5px;
+}
+input[type=submit] {
+    background-color: #f2f2f2;
+    color: #757575;
+    border-bottom-color: rgb(198,198,198);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(198,198,198);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(198,198,198);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(198,198,198);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height:36px;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 5px;
+    background:#f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+#l-footer {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    bottom: 5px;
+    padding-inline-start: 15px;
+    background:transparent;
+}
+#r-footer {
+    position: absolute;
+    text-align: right;
+    width: 250px;
+    height: 30px;
+    bottom: 5px;
+    right: 0px;
+    background:transparent;
+}
+li {
+    list-style: none;
+    font-size: 13px;
+    display: inline;
+    padding-right: 20px;
+    color: white;
+    opacity: .75;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:-webkit-any link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+#rh-lftlinks {
+    position: absolute;
+    left: 0px;
+}
+#picbuttons {
+    position: absolute;
+    width: 150 px;
+    right:0px;
+}
